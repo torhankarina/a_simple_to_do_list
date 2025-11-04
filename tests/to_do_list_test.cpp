@@ -3,8 +3,8 @@
 #include <catch2/benchmark/catch_constructor.hpp>
 #include <catch2/generators/catch_generators_range.hpp>
 
-#include "../src/hello.hpp"
+#include "../src/to_do_list.hpp"
 
-TEST_CASE( "it returns Hello World" ) {
-    REQUIRE( hello() == "Hello World!" );
+TEST_CASE( "to do list test" ) {
+    //REQUIRE( hello() == "Hello World!" );
 }
