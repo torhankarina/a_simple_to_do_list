@@ -1,5 +1,6 @@
 #include "src/to_do_list.hpp"
 #include <iostream>
+using namespace std;
 
 int main() {
     TodoList list;
@@ -11,13 +12,13 @@ int main() {
 
     list.complete("Buy eggs");
 
-    list.all(); std::cout << std::endl;
-    list.completed(); std::cout << std::endl;
-    list.incomplete(); std::cout << std::endl;
+    list.all(); cout << endl;
+    list.completed(); cout << endl;
+    list.incomplete(); cout << endl;
 
-    list.clear(); std::cout << std::endl;
+    list.clear(); cout << endl;
 
-    list.all(); std::cout << std::endl;
+    list.all(); cout << endl;
 
     return 0;
 }
